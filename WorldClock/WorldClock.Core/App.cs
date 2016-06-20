@@ -25,7 +25,8 @@ namespace WorldClock.Core
                 .RegisterAsLazySingleton();
 
             //// Start the app with the Main View Model.
-            this.RegisterAppStart<MainViewModel>();
+            //this.RegisterAppStart<MainViewModel>();
+            this.RegisterAppStart<ClockStoreViewModel>();
         }
     }
 }

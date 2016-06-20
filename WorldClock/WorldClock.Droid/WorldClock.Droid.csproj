@@ -87,6 +87,10 @@
       <HintPath>..\packages\MvvmCross.Plugin.Json.4.2.0\lib\MonoAndroid\MvvmCross.Plugins.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="MvvmCross.Plugins.Messenger, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmCross.Plugin.Messenger.4.2.0\lib\MonoAndroid\MvvmCross.Plugins.Messenger.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="MvvmCross.Plugins.MethodBinding, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MvvmCross.Plugin.MethodBinding.4.2.0\lib\MonoAndroid\MvvmCross.Plugins.MethodBinding.dll</HintPath>
       <Private>True</Private>
@@ -111,6 +115,7 @@
   <ItemGroup>
     <Compile Include="Bootstrap\FilePluginBootstrap.cs" />
     <Compile Include="Bootstrap\JsonPluginBootstrap.cs" />
+    <Compile Include="Bootstrap\MessengerPluginBootstrap.cs" />
     <Compile Include="Bootstrap\MethodBindingPluginBootstrap.cs" />
     <Compile Include="LinkerPleaseInclude.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
@@ -118,6 +123,8 @@
     <Compile Include="Setup.cs" />
     <Compile Include="SplashScreen.cs" />
     <Compile Include="Views\BaseView.cs" />
+    <Compile Include="Views\ClockView.cs" />
+    <Compile Include="Views\ClockStoreView.cs" />
     <Compile Include="Views\MainView.cs" />
   </ItemGroup>
   <ItemGroup>

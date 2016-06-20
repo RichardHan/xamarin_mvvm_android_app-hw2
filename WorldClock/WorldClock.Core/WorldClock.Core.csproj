@@ -36,7 +36,12 @@
     <Compile Include="Mvvm\Grouping.cs" />
     <Compile Include="Mvvm\ObservableObject.cs" />
     <Compile Include="Mvvm\ObservableRangeCollection.cs" />
+    <Compile Include="Services\ClockService.cs" />
+    <Compile Include="Services\IClockService.cs" />
+    <Compile Include="Services\OffsetMessage.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="ViewModels\ClockStoreViewModel.cs" />
+    <Compile Include="ViewModels\ClockViewModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -62,6 +67,10 @@
     </Reference>
     <Reference Include="MvvmCross.Plugins.Json, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MvvmCross.Plugin.Json.4.2.0\lib\portable-net45+win+wpa81+wp80\MvvmCross.Plugins.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Plugins.Messenger, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmCross.Plugin.Messenger.4.2.0\lib\portable-net45+win+wpa81+wp80\MvvmCross.Plugins.Messenger.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MvvmCross.Plugins.MethodBinding, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
